@@ -57,14 +57,14 @@ const loggedInFromEmail = true
 
 
 
-if(userLoggedIn && debitcard && 2==2){
+if(userLoggedIn && debitcard && 2==2){   // all  values are true
    console.log("Allow to buy course");
 }
 else{
    console.log("Do not allo the buy course");
 }
 
-if(loggedInFromGoogle || loggedInFromEmail ){
+if(loggedInFromGoogle || loggedInFromEmail ){ // one value is true then apply the rule
    console.log("user logged in");
 }else{
    console.log("dont user logged in");
